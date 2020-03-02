@@ -16,8 +16,20 @@ public class MinAndMax {
 
         short myMinShort = Short.MIN_VALUE;
         short myMaxShort = Short.MAX_VALUE;
+
+        // We use the (short) to cast the default Integer to a short. In java numbers always default as an Integer.
+        short myNewMinShort = (short)(myMinShort -1);
+        // My taking the minimum value of a primative type and by subtracting 1 below the minimum; we loop back to the maximum
+        // This is called underflow.
+
+        short myNewMaxShort = (short)(myMaxShort + 1);
+        // My taking the maximum value of a primative type and by adding 1 above the maximum; we loop back to the minimum.
+        // This is called overflow.
+
         System.out.println(myMinShort);
         System.out.println(myMaxShort);
+        System.out.println(myNewMinShort);
+        System.out.println(myNewMaxShort);
 
         Float myMinFloat = Float.MIN_VALUE;
         Float myMaxFloat = Float.MAX_VALUE;
@@ -33,8 +45,6 @@ public class MinAndMax {
         long myMaxLong = Long.MAX_VALUE;
         System.out.println(myMinLong);
         System.out.println(myMaxLong);
-
-
 
     }
 }
