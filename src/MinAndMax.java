@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class MinAndMax {
 
 
@@ -45,6 +48,12 @@ public class MinAndMax {
         long myMaxLong = Long.MAX_VALUE;
         System.out.println(myMinLong);
         System.out.println(myMaxLong);
+
+        int myArray[] = {1, 2, 3, 4, 5};
+        for(int i = 0; i < myArray.length; i++){
+            System.out.println(i);
+        }
+
 
     }
 }
