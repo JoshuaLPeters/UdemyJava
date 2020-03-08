@@ -17,4 +17,8 @@ public class Cat extends Animal {
     public void move(int speed) {
         super.move(speed);
     }
+
+    public void jump(int power){
+        super.move(power);
+    }
 }
