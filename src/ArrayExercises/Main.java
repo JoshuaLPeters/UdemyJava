@@ -14,32 +14,6 @@ public class Main {
         }
         System.out.println("The average is " + getAverage(myIntegers));
 
-//        int[] myIntArray = new int[25];
-//        for(int i = 0; i<myIntArray.length; i++){
-//            myIntArray[i] = i*10;
-//        }
-//        for(int i = 0; i<myIntArray.length; i++){
-//            System.out.println("Element " + i + ", value is " + myIntArray[i]);
-//        }
-//        printArray(myIntArray);
-//
-//
-//        //  int[] myIntArray; = {1,2,3,4,5,6,7,8,9,10};
-////          myIntArray[0] = 45;
-//////        myIntArray[1] = 476;
-//////        myIntArray[5] = 50;
-//        double[] myDoubleArray = new double[10];
-//        System.out.println(myIntArray[3]);
-//        System.out.println(myIntArray[4]);
-//        System.out.println(myIntArray[6]);
-//
-//    }
-//    public static void printArray(int[] array){
-//        for(int i = 0; i<array.length; i++){
-//            System.out.println("Element " + i + ", value is " + array[i]);
-//        }
-//    }
-
     }
     public static int[] getIntegers(int number){
 
