@@ -1,5 +1,5 @@
-package AbstractClassesExercise;
-
-public interface CanFly {
-    void fly();
-}
+//package AbstractClassesExercise;
+//
+//public interface CanFly {
+//    void fly();
+//}

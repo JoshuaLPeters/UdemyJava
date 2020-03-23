@@ -1,9 +1,9 @@
-package AbstractClassesExercise;
-
-public class Parrot extends Bird {
-
-    public Parrot(String name) {
-        super(name);
-    }
-
-}
+//package AbstractClassesExercise;
+//
+//public class Parrot extends Bird {
+//
+//    public Parrot(String name) {
+//        super(name);
+//    }
+//
+//}

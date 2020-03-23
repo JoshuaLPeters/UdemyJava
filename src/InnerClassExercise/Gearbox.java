@@ -18,17 +18,14 @@
 //            addGear(i, i*5.3);
 //        }
 //    }
-//
 //    public void operateClutch(boolean in){
 //        this.clutchIsIn = in;
 //    }
-//
 //    public void addGear(int number, double ratio){
 //        if((number > 0) && (number <= maxGears)){
 //            this.gears.add(new Gear(number, ratio));
 //        }
 //    }
-//
 //    public double wheelSpeed(int revs){
 //        if(clutchIsIn){
 //            System.out.println("Scream!");
@@ -36,7 +33,6 @@
 //        }
 //        return revs * gears.get(currentGear).getRatio();
 //    }
-//
 //    public void changeGear(int newGear){
 //        if((newGear >= 0) && (newGear <this.gears.size()) && this.clutchIsIn){
 //            this.currentGear = newGear;
@@ -46,7 +42,6 @@
 //            this.currentGear = 0;
 //        }
 //    }
-//
 //    private class Gear{
 //        private int gearNumber;
 //        private double ratio;
@@ -55,11 +50,9 @@
 //            this.gearNumber = gearNumber;
 //            this.ratio = ratio;
 //        }
-//
 //        public double driveSpeed(int revs){
 //            return revs * (this.ratio);
 //        }
-//
 //        public double getRatio(){
 //            return ratio;
 //        }
