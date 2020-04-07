@@ -1,6 +1,6 @@
-package PracticeExerciseOne;
-
-public interface DragonInterface {
-    void Dragonfire();
-    void Hover();
-}
+//package PracticeExerciseOne;
+//
+//public interface DragonInterface {
+//    void Dragonfire();
+//    void Hover();
+//}

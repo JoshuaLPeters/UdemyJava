@@ -1,5 +1,5 @@
-package PracticeExerciseOne;
-
-public interface SpriteLootTable {
-    void DropTable();
-}
+//package PracticeExerciseOne;
+//
+//public interface SpriteLootTable {
+//    void DropTable();
+//}
