@@ -21,7 +21,7 @@ public class Utilities {
     // ABCDEEF -> ABCDEF
     public String removePairs(String source){
         //if length is less than 2 there won't be any pairs
-        if (source.length < 2){
+        if (source.length() < 2){
             return source;
         }
 
