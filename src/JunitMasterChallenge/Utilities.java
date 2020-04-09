@@ -1,5 +1,7 @@
 package JunitMasterChallenge;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Utilities {
 //    returns a char array containing every nth char. When sourceArray.length < n, returns sourceArray
     public char[] everyNthChar(char[] sourceArray, int n){
@@ -28,11 +30,15 @@ public class Utilities {
         StringBuilder sb = new StringBuilder();
         char[] string = source.toCharArray();
 
-        for(int i = 0; i < string.length; i++){
-            if(string[i] != string[i++]){
+        for(int i = 0; i < string.length -1; i++){
+            System.out.println(string[i]);
+            if(string[i] != string[i + 1]){
                 sb.append(string[i]);
             }
         }
+        // add the final character which is always safe
+
+        sb.append(string[string.length-1]);
 
         return sb.toString();
     }
